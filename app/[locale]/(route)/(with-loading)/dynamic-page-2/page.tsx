@@ -3,5 +3,5 @@ import { connection } from 'next/server'
 export default async function DynamicPage() {
   await connection()
   await new Promise(resolve => setTimeout(resolve, 1000))
-  return <div>Dynamic (not pre-fetched) Page loaded</div>
+  return <div>Dynamic Page 2 loaded</div>
 }

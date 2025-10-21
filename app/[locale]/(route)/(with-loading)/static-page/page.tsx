@@ -1,3 +1,3 @@
 export default function StaticPage() {
-  return <div>Static Page</div>
+  return <div>Static Page loaded</div>
 }
